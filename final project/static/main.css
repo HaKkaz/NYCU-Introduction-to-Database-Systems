@@ -1,0 +1,36 @@
+html {
+  background: url("https://images3.alphacoders.com/793/793579.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container{
+    position: relative; 
+    
+    .box{
+        position: absolute; 
+        top: 0;             
+        bottom: 0;           
+        left: 0;        
+        right: 0;
+        margin: auto;      
+    }
+}
+.form-group{
+    color: white;
+}
+.form-control{
+    font-size: 20px;
+}
+.btn{
+    color: white;
+    width:120px;
+    height:60px;
+    font-size: 30px;
+    text-align: center;
+}
+body {
+    background-color: transparent;
+    height:100vh;
+}
